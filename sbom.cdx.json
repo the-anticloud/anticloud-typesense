@@ -1,0 +1,67 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0e8c1bbe-57a0-55d3-8ea5-81a9737a0635",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:18:45Z",
+    "component": {
+      "type": "application",
+      "name": "TYPESENSE",
+      "version": "4f8f4a29e829",
+      "bom-ref": "pkg:generic/anticloud/TYPESENSE@4f8f4a29e829",
+      "purl": "pkg:generic/anticloud/TYPESENSE@4f8f4a29e829",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "4f8f4a29e82921a6bae609eb1c07bbda97541cf1"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/typesense/typesense.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "api_tests",
+      "version": ".",
+      "purl": "pkg:npm/api_tests@.",
+      "bom-ref": "npm/api_tests@."
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "^3.25.67",
+      "purl": "pkg:npm/zod@^3.25.67",
+      "bom-ref": "npm/zod@^3.25.67"
+    },
+    {
+      "type": "library",
+      "name": "@types/bun",
+      "version": "latest",
+      "purl": "pkg:npm/@types/bun@latest",
+      "bom-ref": "npm/@types/bun@latest"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5",
+      "purl": "pkg:npm/typescript@^5",
+      "bom-ref": "npm/typescript@^5"
+    }
+  ]
+}

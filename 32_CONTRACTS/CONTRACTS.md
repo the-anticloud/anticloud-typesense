@@ -1,0 +1,25 @@
+# Contracts — TYPESENSE
+
+**Company:** Anticloud FZ LLE
+**Model:** PAX L5 Narrow L2 General 27B
+**Project:** TYPESENSE | Category: SEARCH_ENGINES
+**Upstream:** https://github.com/typesense/typesense (GPL)
+
+## Overview
+
+This document covers contracts for the Anticloud integration of TYPESENSE.
+
+Typo-tolerant search engine
+
+## Anticloud Integration
+
+PAX L5 Narrow L2 General 27B is integrated into TYPESENSE to provide:
+- Local AI inference with zero cloud dependency
+- AIOSS tamper-evident audit chain
+- AES-256 encryption at rest
+- Single-binary deployment
+
+## Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
